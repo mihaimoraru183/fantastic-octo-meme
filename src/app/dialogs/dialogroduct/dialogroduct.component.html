@@ -1,0 +1,83 @@
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<div
+    style='box-sizing: inherit; border: 0px solid rgb(194, 185, 179); border-collapse: inherit; color: rgb(88, 82, 78); font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;'>
+    <div class="my-0 lg:my-3"
+        style="box-sizing: inherit; border: 0px solid rgb(194, 185, 179); border-collapse: inherit; margin-top: 0.75rem; margin-bottom: 0.75rem;">
+        <h1 class="font-bold leading-none text-black m-0 text-center text-base lg:text-3xl bg-gray-lighter lg:bg-transparent -mx-15px lg:mx-auto px-3 pt-4 pb-3 lg:p-0 border-b lg:border-b-0"
+            style='box-sizing: inherit; border: 0px solid rgb(194, 185, 179); border-collapse: inherit; font-size: 1.875rem; margin: 0px auto; font-weight: 700; color: rgb(0, 0, 0); font-family: metawp, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 1; text-rendering: optimizelegibility; background-color: transparent; padding: 0px; text-align: center;'>
+            <div style="box-sizing: inherit; border: 0px solid rgb(194, 185, 179); border-collapse: inherit;">
+                {{ modalData.title }}</div>
+        </h1>
+    </div>
+    <div class="u-heading-uppercase u-heading-h5 u-space-mt-10 u-space-mb-0 lg-u-space-m-0 u-space-mr-10 u-text-bold u-color-gray"
+        style='box-sizing: inherit; border: 0px solid rgb(194, 185, 179); border-collapse: inherit; color: rgb(150, 140, 135); font-family: metawp, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 1.25em; margin: 0px; text-rendering: optimizelegibility; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;'>
+        {{ modalData.spec }}</div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div id="content-slider">
+            <div class="wrap-slider">
+                <input type="radio" id="a-1" name="a">
+                <input type="radio" id="a-2" name="a">
+                <input type="radio" id="a-3" name="a">
+                <input type="radio" id="a-4" name="a">
+
+                <nav id="main">
+                    <label for="a-1" class="first"></label>
+                    <label for="a-2" class="first"></label>
+                    <label for="a-3" class="first"></label>
+                    <label for="a-4" class="first"></label>
+                </nav>
+                <nav id="control">
+                    <label for="a-1"></label>
+                    <label for="a-2"></label>
+                    <label for="a-3"></label>
+                    <label for="a-4"></label>
+                </nav>
+                <span id="b-1" class="th" tabindex="10">
+                    <img src="{{ modalData.img1 }}"  alt="" id="p-1">
+                </span>
+
+                <span id="b-2" class="th" tabindex="11">
+                    <img src="{{ modalData.img2 }}" alt="" id="p-2">
+                </span>
+
+                <span id="b-3" class="th" tabindex="12">
+                    <img src="{{ modalData.img3 }}" alt="" id="p-3">
+                </span>
+
+                <span id="b-4" class="th" tabindex="13">
+                    <img src="{{ modalData.img4 }}" alt="" id="p-4">
+                </span>
+                <div class="slider">
+                    <div class="inset">
+                        <figure>
+                            <img src="{{ modalData.img1 }}" alt="" id="i-1" class="f">
+                        </figure>
+                        <figure>
+                            <img src="{{ modalData.img2 }}" alt="" id="i-2" class="f">
+                        </figure>
+                        <figure>
+                            <img src="{{ modalData.img3 }}" alt="" id="i-3" class="f">
+                        </figure>
+                        <figure>
+                            <img src="{{ modalData.img4 }}" alt="" id="i-4" class="f">
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="specification">
+
+            <app-specification></app-specification>
+        </div>
+    </div>
+</div>

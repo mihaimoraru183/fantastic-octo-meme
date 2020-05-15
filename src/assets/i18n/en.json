@@ -1,0 +1,36 @@
+{
+    "navBar": {
+        "home": "Acasa",
+        "about": "Despre",
+        "products": "products",
+        "contacts": "contacts"
+    },
+    "producst": {
+        "more": "more details",
+        "moreDetails": "details"
+    },
+    "products_details": {
+        "addCard": "Add to bag",
+        "addToFavorites": "Add to favorites",
+        "delivery": "FREE delivery for orders over 400 lei",
+        "retur": "Possibility of return in 14 days",
+        "producator": "Manufacturer",
+        "tehnical_details": "Tehnical details",
+        "utilizare": "Use",
+        "model": "Model"
+    },
+    "footer": {
+        "Social": "Social",
+        "description": "Chisinau, str. Stefan cel Mare 1, tel 0 (123) 45-67-89",
+        "subtitle": "PieseAuto.ro is an online platform for announcements of new and used car parts from dismantling. Car parts stores advertise aftermarket parts, car accessories and supplies, and authorized car parks offer used original car parts from broken-down cars.",
+        "quickLinks": "Quick Links",
+        "aboutUs": "Know More About Us",
+        "store": "Visit Store",
+        "contacts": "Location",
+        "Links": "Site Links",
+        "policity": "Privacy Policy",
+        "details": "Shipping Details",
+        "cupons": "Offer Cupons",
+        "condition": "Terms & Conditions"
+    }
+}

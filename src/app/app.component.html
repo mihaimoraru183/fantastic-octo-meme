@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="header">
+        <a id="logo" href="#">YP</a>
+        <nav>
+            <ul>
+                <li> <a routerLink="/home" routerLinkActive="active">{{ 'navBar.home' | translate }}</a></li>
+                <li><a routerLink="/about" routerLinkActive="active">{{ 'navBar.about' | translate }}</a> </li>
+                <li><a routerLink="/products" routerLinkActive="active">{{ 'navBar.products' | translate }}</a></li>
+                <li><a routerLink="/contacts" routerLinkActive="active">{{ 'navBar.contacts' | translate }}</a> </li>
+            </ul>
+        </nav>
+        <div class="button-aligment">
+            <button mat-button (click)="useLanguageRo('ro')" class="follow-button">RO</button>
+            <button mat-button (click)="useLanguageEn('en')" class="follow-button">EN</button>
+        </div>
+    </div>
+    <div class="content">
+        <router-outlet></router-outlet>
+
+        
+    </div>
+    <div class="footer">
+        <app-footer></app-footer>
+    </div>
+</div>

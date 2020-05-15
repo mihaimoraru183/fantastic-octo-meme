@@ -1,0 +1,37 @@
+{
+    "navBar": {
+        "home": "Acasa",
+        "about": "Despre",
+        "products": "produse",
+        "contacts": "contacte"
+    },
+    "producst": {
+        "more": "mai multe",
+        "moreDetails": "detalii"
+    },
+    
+    "products_details": {
+        "addCard": "Adauga la cos",
+        "addToFavorites": "Adauga la favorite",
+        "delivery": "Transport GRATUIT la comenzi peste 400 de lei",
+        "retur": "Posibilitate de retur in 14 zile",
+        "producator": "Producator",
+        "tehnical_details": "Detalii tehnice",
+        "utilizare": "Utilizare",
+        "model": "Model"
+    },
+    "footer": {
+        "Social": "Social",
+        "description": "Chisinau, str. Stefan cel Mare 1, tel 0 (123) 45-67-89",
+        "subtitle": "AutoParts.md este o platformă online de anunțuri cu piese auto noi și second hand provenite din dezmembrări. Magazinele de piese auto publică anunțuri cu piese de schimb aftermarket, accesorii și consumabile auto, iar parcurile de dezmembrări autorizate oferă piese auto originale second hand provenite din mașini dezmembrate.",
+        "quickLinks": "Link-uri utile",
+        "aboutUs": "Despre noi",
+        "store": "Magazin",
+        "contacts": "Locatie",
+        "Links": "Linkuri",
+        "policity": "Politica Privata",
+        "details": "Detalii Livrare",
+        "cupons": "Cupoane",
+        "condition": "Termeni si Conditii"
+    }
+}
